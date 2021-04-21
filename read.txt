@@ -1,0 +1,29 @@
+git config --global user.name "vijaysingh696"
+git config --global user.email "vsvijay696vs@gmail.com"
+
+touch .gitignore 
+ # optional    #  isse ak file ban jaayegi or vo file jo isme puch na ho ye isme ignor ker dega
+
+git init  
+ # git repository 
+
+git add .
+
+git commit -m "initial commit"
+
+git status 
+# ye status batata hai  
+# On branch master
+nothing to commit, working tree clean
+
+ssh-keygen -t ed25519 -C "vsvijay696vs@gmail.com" 
+ # isse key aa jayegi 
+
+tail <fir key ka path dena hai > 
+ # github me kry ho jaayegi 
+
+git remote add origin git@github.com:vijaysingh696/my.git
+# ye projact ko dalne ka hai,projact ssh url paste kere, 
+
+git push origin master  
+ # lekin ye privte a\c ke karn ye nhi jaayega iske liye key ganret kerna padega.
